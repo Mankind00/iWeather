@@ -1,0 +1,40 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    background-image: url("/images/Weather-project-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    font-size: 80px;
+    height: 85px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+
+}
+
+.main-content {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.main-content p {
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+}
+.form-position {
+    margin-top: 100px;
+}
+.form-position input {
+    border-style: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
